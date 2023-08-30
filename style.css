@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+span, a {
+    display: inline-block;
+}
+.link1 {color: red;}
+.link2 {color: blue;}
+
+.link {
+    display: none;
+    font-size: 45px;
+    text-decoration: none;
+}
+.active {
+    display: block;
+}
+.change {
+    font-size: 45px;
+    color: red;
+    outline: none;
+    border: none;
+    margin-top: 30px;
+    border-radius: 30px;
+    padding: 15px 30px;
+    background-color: black;
+    max-width: 300px;
+}
+.all {
+    padding: 100px;
+}
+.new {
+    color:blue;
+}
